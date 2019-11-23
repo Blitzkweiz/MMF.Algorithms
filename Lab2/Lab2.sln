@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickHybridSort", "QuickHybridSort\QuickHybridSort.csproj", "{95178459-FD50-44DD-8919-D75846BCF5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickHybridSort.Test", "QuickHybridSort.Test\QuickHybridSort.Test.csproj", "{239DAE3D-8C84-4DF6-B985-4D6725F2B6FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{239DAE3D-8C84-4DF6-B985-4D6725F2B6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239DAE3D-8C84-4DF6-B985-4D6725F2B6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239DAE3D-8C84-4DF6-B985-4D6725F2B6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239DAE3D-8C84-4DF6-B985-4D6725F2B6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
