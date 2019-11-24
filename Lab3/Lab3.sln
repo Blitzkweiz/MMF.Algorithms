@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeHybridSort", "MergeHybridSort\MergeHybridSort.csproj", "{40B63CF2-D17B-4AC0-A4A7-A627FB0187C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeHybridSort.Tests", "MergeHybridSort.Tests\MergeHybridSort.Tests.csproj", "{8FFAE1AE-C30B-4393-AA52-7F08FE035D2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FFAE1AE-C30B-4393-AA52-7F08FE035D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFAE1AE-C30B-4393-AA52-7F08FE035D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFAE1AE-C30B-4393-AA52-7F08FE035D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFAE1AE-C30B-4393-AA52-7F08FE035D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -16,7 +16,7 @@ namespace QuickHybridSort.Test
         [TestCase(10000000, 100000, 12)]
         [TestCase(10000000, 1000000, 12)]
         [TestCase(10000000, 10000000, 12)]
-        public void HybridSortTest(int length, int maxElement, int k)
+        public void HybridSortTimeTest(int length, int maxElement, int k)
         {
             var sw = new Stopwatch();
             var rand = new Random();
@@ -55,12 +55,6 @@ namespace QuickHybridSort.Test
             Assert.AreEqual(expected, actual1);
             Assert.AreEqual(expected, actual2);
             Assert.AreEqual(expected, actual3);
-        }
-
-        [Test]
-        public void MudrostTest()
-        {
-            System.Console.WriteLine($"Spas mudrost: {new Random().Next(1, 20)}");
         }
 
         [TestCase(100000, 100000, 12)]
