@@ -9,12 +9,12 @@ namespace MergeHybridSort.Tests
         [TestCase(100000, 100000, 42)]
         [TestCase(100000, 1000000, 42)]
         [TestCase(100000, 10000000, 42)]
-        [TestCase(1000000, 100000, 42)]
+        [TestCase(1000000, 100000, 41)]
         [TestCase(1000000, 1000000, 42)]
-        [TestCase(1000000, 10000000, 42)]
-        [TestCase(10000000, 100000, 42)]
-        [TestCase(10000000, 1000000, 42)]
-        [TestCase(10000000, 10000000, 42)]
+        [TestCase(1000000, 10000000, 41)]
+        [TestCase(10000000, 100000, 35)]
+        [TestCase(10000000, 1000000, 50)]
+        [TestCase(10000000, 10000000, 62)]
         public void HybridMergeTimeTest(int length, int maxElement, int k)
         {
             var sw = new Stopwatch();

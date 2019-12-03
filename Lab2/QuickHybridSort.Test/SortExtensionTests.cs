@@ -5,17 +5,17 @@ using System.Threading;
 
 namespace QuickHybridSort.Test
 {
-    public class Tests
+    public class SortExtensionTests
     {
         [TestCase(100000, 100000, 12)]
         [TestCase(100000, 1000000, 12)]
-        [TestCase(100000, 10000000, 12)]
+        [TestCase(100000, 10000000, 14)]
         [TestCase(1000000, 100000, 12)]
-        [TestCase(1000000, 1000000, 12)]
+        [TestCase(1000000, 1000000, 11)]
         [TestCase(1000000, 10000000, 12)]
-        [TestCase(10000000, 100000, 12)]
-        [TestCase(10000000, 1000000, 12)]
-        [TestCase(10000000, 10000000, 12)]
+        [TestCase(10000000, 100000, 23)]
+        [TestCase(10000000, 1000000, 8)]
+        [TestCase(10000000, 10000000, 9)]
         public void HybridSortTimeTest(int length, int maxElement, int k)
         {
             var sw = new Stopwatch();
@@ -60,12 +60,12 @@ namespace QuickHybridSort.Test
         [TestCase(100000, 100000, 12)]
         [TestCase(100000, 1000000, 12)]
         [TestCase(100000, 10000000, 12)]
-        [TestCase(1000000, 100000, 12)]
+        [TestCase(1000000, 100000, 14)]
         [TestCase(1000000, 1000000, 12)]
-        [TestCase(1000000, 10000000, 12)]
-        [TestCase(10000000, 100000, 12)]
-        [TestCase(10000000, 1000000, 12)]
-        [TestCase(10000000, 10000000, 12)]
+        [TestCase(1000000, 10000000, 11)]
+        [TestCase(10000000, 100000, 23)]
+        [TestCase(10000000, 1000000, 8)]
+        [TestCase(10000000, 10000000, 9)]
         public void HybridKTest(int length, int maxElement, int k)
         {
             var sw = new Stopwatch();

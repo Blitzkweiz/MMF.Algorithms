@@ -108,7 +108,7 @@ namespace QuickHybridSort
         {
             if (start < end)
             {
-                if (end - 1 > k)
+                if (end - start > k)
                 {
                     var sep = RightPartition(array, start, end);
                     HybridSort(array, start, sep - 1, k);
